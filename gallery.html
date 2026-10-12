@@ -1,0 +1,198 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Contact Management System</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section, article, aside {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        figure {
+            margin: 5px;
+        }
+
+        figure img {
+            width: 200px;
+            height: 140px;
+            object-fit: cover;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        aside {
+            background-color: lightblue;
+        }
+
+        footer {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="Contact Management System Logo" width="80" height="80">
+        <h1>Contact Management System</h1>
+        <p>Our Gallery</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="data.html">Contacts</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Gallery Section</h2>
+            <p>Explore our contact management system.</p>
+
+            <div class="gallery">
+                <figure>
+                    <img src="images/contact1.jpg"
+                         alt="Contact list">
+                    <figcaption>Contact List</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/contact2.jpg"
+                         alt="Contact details">
+                    <figcaption>Contact Details</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/contact3.jpg"
+                         alt="Managing contacts">
+                    <figcaption>Managing Contacts</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section>
+            <h2>System Features</h2>
+
+            <article>
+                <h3>Adding Contacts</h3>
+                <p>Users can add names, phone numbers,
+                   and email addresses.</p>
+            </article>
+
+            <article>
+                <h3>Organising Contacts</h3>
+                <p>The system helps users manage contact
+                   information efficiently.</p>
+            </article>
+
+            <h3>Features Table</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Add Contacts</td>
+                        <td>Save new contact details.</td>
+                    </tr>
+
+                    <tr>
+                        <td>View Contacts</td>
+                        <td>Display saved contacts.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Organise Contacts</td>
+                        <td>Keep information organised.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>System Demonstration</h2>
+            <p>Watch a demonstration of our system.</p>
+
+            <video controls width="400">
+                <source src="media/demo.mp4"
+                        type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </section>
+
+        <aside>
+            <h2>Did You Know?</h2>
+            <p>A contact management system makes it
+               easier to store and find contact details.</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Contact Management System.
+           All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
